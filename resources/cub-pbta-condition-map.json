@@ -3,7 +3,7 @@
   "map": [
     {
       "id": "angry",
-      "name": "Angry",
+      "name": "분노",
       "icon": "icons/skills/wounds/injury-face-impact-orange.webp",
       "referenceId": "@Compendium[masks-newgeneration-unofficial.conditions-masks.CHkJHR750AmybjBW]{Angry}",
       "applyTrigger": "783qmrlxe8vtuzdu",
@@ -18,7 +18,7 @@
     },
     {
       "id": "afraid",
-      "name": "Afraid",
+      "name": "두려움",
       "icon": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "referenceId": "@Compendium[masks-newgeneration-unofficial.conditions-masks.67zetsmKWCtRWx18]{Afraid}",
       "applyTrigger": "v1bimnlcypo6utio",
@@ -33,7 +33,7 @@
     },
     {
       "id": "guilty",
-      "name": "Guilty",
+      "name": "죄책감",
       "icon": "icons/creatures/mammals/humanoid-cat-skulking-teal.webp",
       "referenceId": "@Compendium[masks-newgeneration-unofficial.conditions-masks.OKOdRBzVlxYBb1VQ]{Guilty}",
       "applyTrigger": "drr2cikqampkld3d",
@@ -48,7 +48,7 @@
     },
     {
       "id": "hopeless",
-      "name": "Hopeless",
+      "name": "절망",
       "icon": "icons/creatures/magical/spirit-undead-masked-blue.webp",
       "referenceId": "@Compendium[masks-newgeneration-unofficial.conditions-masks.IVLVMhcSnRhWcepA]{Hopeless}",
       "applyTrigger": "iqkcpglchgfnsa70",
