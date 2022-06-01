@@ -6,13 +6,13 @@ statToggle = "Locked"
 [rollResults]
   [rollResults.failure]
     range = "6-"
-    label = "Complications..."
+    label = "일이 복잡해집니다...."
   [rollResults.partial]
     range = "7-9"
-    label = "Partial success"
+    label = "부분적 성공"
   [rollResults.success]
     range = "10+"
-    label = "Success!"
+    label = "성공!"
 
 ########################################
 ## CHARACTERS ##########################
@@ -32,53 +32,53 @@ statToggle = "Locked"
   [character.attributesTop]
     [character.attributesTop.heroName]
       type = "Text"
-      label = "Hero Name"
+      label = "히어로 이름"
     [character.attributesTop.advances]
       type = "Number"
-      label = "Advances"
+      label = "성장"
     [character.attributesTop.xp]
       type = "Xp"
-      label = "Potential"
+      label = "성장성"
       max = 5
     [character.attributesTop.momentUnlocked]
       type = "Checkbox"
-      label = "Moment of Truth"
-      checkboxLabel = "Unlocked"
+      label = "각성의 순간"
+      checkboxLabel = "해제"
       default = false
 
   # Define sidebar details.
   [character.attributesLeft]
     [character.attributesLeft.conditions]
       type = "ListMany"
-      label = "Conditions"
+      label = "상태 이상"
       condition = true
-      description = "Choose all that apply:"
+      description = "해당하는 것을 모두 고르세요:"
       options = [
-        "Afraid (-2 to engage)",
-        "Angry (-2 to comfort or pierce)",
-        "Guilty (-2 to provoke or assess)",
-        "Hopeless (-2 to unleash)",
-        "Insecure (-2 to defend or reject)"
+        "두려움 (직접 위협 맞서기에 -2)",
+        "분노 (위로 또는 지지, 가면 벗기기에 -2)",
+        "죄책감 (도발, 상황파악에 -2)",
+        "절망 (능력 발휘에 -2)",
+        "불안 (보호, 영향력 거부에 -2)"
       ]
     [character.attributesLeft.look]
       type = "LongText"
-      label = "Look"
+      label = "외양"
     [character.attributesLeft.abilities]
       type = "LongText"
-      label = "Abilities"
+      label = "능력"
     [character.attributesLeft.influence]
       type = "LongText"
-      label = "Influence"
+      label = "영향력"
     [character.attributesLeft.moment]
       type = "LongText"
-      label = "Moment of Truth"
+      label = "각성의 순간"
 
   # Define groups for moves.
   [character.moveTypes]
-    basic = "Basic Moves"
-    playbook = "Playbook Moves"
-    team = "Team Moves"
-    adult = "Adult Moves"
+    basic = "기본 액션"
+    playbook = "플레이북 액션"
+    team = "팀 액션"
+    adult = "어른 액션"
 
   # Define groups for equipment.
 
