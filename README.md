@@ -1,4 +1,4 @@
-# Masks: A New Generation (Unofficial) Revised
+# Masks: A New Generation (Unofficial) Revised IN KOREAN
 
 This module contains moves for the game Masks: A New Generation for use with the Foundry VTT generic PbtA System (https://gitlab.com/asacolips-projects/foundry-mods/pbta). You can install this system with this link: https://gitlab.com/asacolips-projects/foundry-mods/pbta/-/jobs/artifacts/beta/raw/system.json?job=build-beta
 
